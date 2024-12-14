@@ -504,9 +504,9 @@ footer p {
     width: 55px;
     height: 55px;
     border-radius: 50%;
-  background-color: white;
+    background-color: white;
     z-index: 99;
-    right: 25px;
+    right: 10px;
    
     color: black;
     font-size: 1.8rem;
@@ -620,11 +620,6 @@ footer p {
     height: auto;
   }
 
-  .perfect-condition h2 {
-  }
-  .perfect-condition p {
-  }
-
 .guud {
     grid-template-columns: 1fr;
     
@@ -651,10 +646,10 @@ footer p {
   }
 
   .mobil-menu[data-visible="false"] {
-    transform: translateX(500px);
+    transform: translatey(-500px);
   }
   .mobil-menu[data-visible="true"]{
-    transform: translateX(0%);
+    transform: translatey(0%);
   }
 
  
